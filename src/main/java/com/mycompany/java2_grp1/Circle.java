@@ -13,7 +13,7 @@ public class Circle {
     private double radius = 1.0;
     private String Color = "red";
     private String group = "1 to 4";
-    private double pi = 3.14159265359;
+    protected double pi = 3.14159265359;
 
     public Circle() {
     }
