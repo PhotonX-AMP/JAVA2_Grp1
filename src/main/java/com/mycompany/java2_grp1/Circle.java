@@ -10,8 +10,32 @@ package com.mycompany.java2_grp1;
  * @author ACER
  */
 public class Circle {
+    private double radius = 1.0;
+    private String Color = "red";
+    private String group = "1 to 4";
+    private double pi = 3.14159265359;
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public Circle() {
     }
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public Circle(double radius, String color) {
+        this.radius = radius;
+        Color = color;
+    }
+
+    public Circle(double radius, String color, String group) {
+        this.radius = radius;
+        Color = color;
+        this.group = group;
+    }
+
+    public double getArea(){
+        double area = this.radius*this.radius*pi;
+        return area;
+    }
+
 }
