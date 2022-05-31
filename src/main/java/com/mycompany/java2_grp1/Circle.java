@@ -37,5 +37,32 @@ public class Circle {
         double area = this.radius*this.radius*pi;
         return area;
     }
+    public double getCircumference(){
+        double area = 2*this.radius*pi;
+        return area;
+    }
 
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    public String getColor() {
+        return Color;
+    }
+
+    public void setColor(String color) {
+        Color = color;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
+    }
 }
