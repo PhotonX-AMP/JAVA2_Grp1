@@ -54,8 +54,8 @@ public class Answers extends Questions{
         Circle circle = new Circle(radius, color, group);
 
         System.out.println("\n\tThis constructor used here is receiving 3 arguments\n" +
-                "\tThe radius of this circle is "+circle.getRadius()+" and the color is "+circle.getColor()+"\n" +
-                "\tThe area of this circle is "+circle.getArea()+" and the circumference is "+circle.getCircumference()+"\n" +
+                "\tThe radius of this circle is:  "+circle.getRadius()+" and the color is: "+circle.getColor()+"\n" +
+                "\tThe area of this circle is:  "+circle.getArea()+" and the circumference is:  "+circle.getCircumference()+"\n" +
                 "\tThis is group number: "+circle.getGroup());
     }
 
@@ -64,10 +64,10 @@ public class Answers extends Questions{
     public void answer3(){
         Circle circle = new Circle();
        Circle circle1 = new Circle(4, "brown", "One(1)");
-        System.out.println("\n\tThe default values of radius, color and group of this circle are: "+circle.getRadius()+", "+circle.getColor()+" and "+circle.getGroup()+ "\n" +
-                "\tThe new values of radius, color and group are: "+circle1.getRadius()+", "+circle1.getColor()+" and "+circle1.getGroup()+" respectively.\n" +
-                "\tThe area of this circle is "+circle1.getArea()+" and the circumference is "+circle1.getCircumference()+"\n"+
-                "\tThis is group number "+circle1.getGroup());
+        System.out.println("\n\tThe default values of radius, color and group of this circle are:  "+circle.getRadius()+", "+circle.getColor()+" and "+circle.getGroup()+ "\n" +
+                "\tThe new values of radius, color and group are:  "+circle1.getRadius()+", "+circle1.getColor()+" and "+circle1.getGroup()+" respectively.\n" +
+                "\tThe area of this circle is:  "+circle1.getArea()+" and the circumference is:  "+circle1.getCircumference()+"\n"+
+                "\tThis is group number:  "+circle1.getGroup());
     }
 
 }

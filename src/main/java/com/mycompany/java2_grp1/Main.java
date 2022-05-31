@@ -87,7 +87,7 @@ public class Main extends Answers {
                     System.out.println("Question 3:");
                     choose = 0;
                     while (choose != 3) {
-                        System.out.printf("\n\t1. Show question " +
+                        System.out.printf("n\n\t1. Show question " +
                                 "\n\t2. Show answer " +
                                 "\n\t3.Back " +
                                 "\n\tEnter your choice:  ");
