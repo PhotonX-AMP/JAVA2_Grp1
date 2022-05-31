@@ -2,11 +2,18 @@ package com.mycompany.java2_grp1;
 
 import java.util.Scanner;
 
+/**
+ * this is the class that handles all the answers
+ */
 public class Answers extends Questions{
     Scanner input = new Scanner(System.in);
 
 
     //Answer 1
+
+    /**
+     * Displays answer 1
+     */
     public void answer1(){
 
         Circle Circle_1 = new Circle();
@@ -17,6 +24,9 @@ public class Answers extends Questions{
 
     //Answer 2
         //Answer 2a
+    /**
+     * Displays answer 2a
+     */
     public void answer2a(){
 
         System.out.printf("\nEnter the radius of this circle: ");
@@ -27,7 +37,11 @@ public class Answers extends Questions{
                 "\tThe area of this circle is "+circle_1.getArea()+ " and the circumference is " +circle_1.getCircumference()+"\n" +
                 "\tThis project belong to groups "+ circle_1.getGroup());
     }
+
         //Answer 2b
+    /**
+     * Displays answer b
+     */
     public void answer2b(){
         System.out.printf("\nEnter the radius of this circle: ");
         double radius = input.nextInt();
@@ -42,6 +56,9 @@ public class Answers extends Questions{
                 "\tThis project belong to groups "+circle.getGroup());
     }
     //Answer2c
+    /**
+     * Displays answer 2c
+     */
     public void answer2c(){
         System.out.printf("\n\tEnter the radius of this circle: ");
         double radius = input.nextInt();
@@ -61,6 +78,9 @@ public class Answers extends Questions{
 
 
     //Answer 3
+    /**
+     * Displays answer 3
+     */
     public void answer3(){
         Circle circle = new Circle();
        Circle circle1 = new Circle(4, "brown", "One(1)");

@@ -2,9 +2,17 @@ package com.mycompany.java2_grp1;
 
 import java.util.Scanner;
 
+/**
+ * This class takes care of running the program
+ */
 public class Main extends Answers {
 
     //Main method
+
+    /**
+     * this is the main method of the whole program
+     * @param args
+     */
     public static void main(String[] args) {
         Questions questions = new Questions();
         Answers answers = new Answers();
@@ -50,6 +58,7 @@ public class Main extends Answers {
 
                 case 2:
                     System.out.println("Question 2:");
+                    questions.Question2();
                     choose = 0;
                     while (choose != 3) {
                         System.out.printf("\n\t1. Question 2a " +
@@ -122,6 +131,10 @@ public class Main extends Answers {
             }
         }
     }
+
+    /**
+     * this method displays all the group members
+     */
     public void displayMembers(){
         System.out.println("1.\tICTU20201200\tABDOUL AZIS" +
                 "\n2.\tICTU20212183\tACHA Naomi Blanche Eya" +

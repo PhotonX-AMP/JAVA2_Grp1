@@ -1,7 +1,5 @@
-# JAVA_2_OOP_Implementation
- This code illustrates  the basic principles of OOP in java using; a class that defines a Circle. Some operations are carried out with this Class  to show how we can work with instances off a class:
+Group Members:
 
-    Group members:
                  1. ICTU20201200  ABDOUL AZIS
                  2. ICTU20212183  ACHA Naomi Blanche Eya
                  3. ICTU20201493  AKOM, Tikum Donald
